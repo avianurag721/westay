@@ -1,7 +1,6 @@
-// "use client";
+"use client";
 
 import axios from "axios";
-import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import SingleHotelData from "../../Components/SingleHotelData";
 
@@ -16,7 +15,7 @@ const hotel = ({ hotel }) => {
 
       console.log("hotel", hotelData);
     }
-  }, []);
+  }, [hotelData]);
 
   return (
     <div className=" bg-gradient-to-b from-slate-300 to-slate-50 flex flex-col justify-center items-center  w-full min-h-screen">
