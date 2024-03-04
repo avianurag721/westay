@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import axios from "axios";
 import Link from "next/link";
